@@ -1,0 +1,11 @@
+@HOST=http://localhost:3000/api
+###
+GET http://localhost:3000/api/versenyzok
+###
+GET {{HOST}}/versenyzok/14
+###
+GET {{HOST}}/versenyzok/99
+###
+GET {{HOST}}/versenyzok/0
+###
+GET {{HOST}}/versenyzok/abc
